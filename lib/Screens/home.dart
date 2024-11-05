@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:user_app1/Screens/create_profile_screen.dart';
+import 'package:user_app1/Screens/profile_creation_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -31,11 +31,6 @@ body: Center(
     elevation: 5, 
   ),
           child:  const Text("Crear Perfil")),
-                         const SizedBox(height: 150),
-                                  const Text("Hecho por: Luis Benjamín Horta López", style: TextStyle(fontSize: 10, color: Color.fromARGB(255, 133, 133, 133)), textAlign: TextAlign.center, ),
-
-
-
       ],
     ),
   ),

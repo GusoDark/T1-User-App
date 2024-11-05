@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:user_app1/Screens/show_profile_screen.dart';
+import 'package:user_app1/Screens/user_profile_screen.dart';
 
 class CreateProfileScreen extends StatefulWidget {
   const CreateProfileScreen({super.key});
